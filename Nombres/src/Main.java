@@ -13,5 +13,9 @@ public class Main {
 	public static void main(String[] args) {
 		Persona p = new Persona("Delfín","Carrillo","2/11/1992",Persona.Sexo.HOMBRE);
 		System.out.println(p);
+		
+		dni dni = new dni(80169369, "a");
+		System.out.println(dni.dniCompleto());
 	}
 }
+
